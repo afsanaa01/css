@@ -1,0 +1,41 @@
+.pic{
+    background-color: rgb(0, 0, 0);
+    height: 600px;
+    width: 100%;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    background-image:url(../pictures/successful-business-woman.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.pic .text{
+    position: absolute;
+    right: 430px;
+    top: 500px;
+    background-color:cadetblue;
+    height: 150px;
+    width: 650px;
+    border-radius: 10px;
+}
+h1{
+    color: white;
+    text-align: center;
+    margin-top: 25px;
+    font-weight: bolder;
+    font-style: italic;
+}
+.info{
+    color: white;
+    margin-right: 20px;
+    text-align: center;
+    font-style: italic;
+    margin-top: 50px;
+}
+.info span{
+    margin-left: 10px;
+}
+.info i{
+    color: rgb(90, 89, 89);
+}

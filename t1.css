@@ -1,0 +1,136 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+section{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.clear-fix{
+    clear: both;
+}
+#films{
+    background-color: black;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+#films h2{
+    color: black;
+    font-size: 100px;
+    margin-top: 50px;
+    margin-left: 52px;
+    font-weight: normal;
+}
+#films h1{
+    color: rgb(255, 255, 255);
+    font-size: 100px;
+    margin-bottom: 150px;
+    font-weight: normal;
+}
+#films .films .film{
+    float: left;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    width: 32%;
+    border-radius: 10px;
+}
+#films .films .film:nth-of-type(3n-1){
+    margin-right: 2%;
+    margin-left: 2%;
+}
+#films .films .film img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+#films .films .film .action{
+    background-color: aquamarine;
+    position: absolute;
+    top:380px;
+    left: 200px;
+    width: 300px;
+    height: 100px;
+    border-radius: 10px;
+    color: white;
+}
+#films .films .film .crime{
+    background-color: aquamarine;
+    position: absolute;
+    top:380px;
+    left: 1650px;
+    width: 300px;
+    height: 100px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+}
+#films .films .film .advent{
+    background-color: aquamarine;
+    position: absolute;
+    top:380px;
+    left: 3100px;
+    width: 300px;
+    height: 100px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+}
+#films .films .film p{
+    color: black;
+    font-size: 50px;
+    margin-bottom: 50px;
+    margin-top: 15px;
+}
+#films .films .film .action p{
+    color: black;
+    font-size: 50px;
+    margin-bottom: 50px;
+    margin-top: 15px;
+    margin-left: 60px;
+}
+#films .films .film .info p{
+    color: black;
+    font-size: 50px;
+    margin-bottom: 50px;
+    margin-left: 60px;
+}
+#films .films .film .info{
+    position: absolute;
+    background-color: rgb(245, 241, 241);
+    color: rgb(160, 137, 137) 50%;
+    width: 1360px;
+    height: 400px;
+    top: 101%;
+    left: 2.2%;
+    opacity: 0.9;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+#films .films .film .info1{
+    position: absolute;
+    background-color: rgb(245, 241, 241);
+    width: 1356px;
+    height: 400px;
+    top: 101%;
+    left: 34.8%;
+    opacity: 0.9;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+#films .films .film .info2{
+    position: absolute;
+    background-color: rgb(245, 241, 241);
+    width: 1354px;
+    height: 400px;
+    top: 101%;
+    left: 67.2%;
+    opacity: 0.9;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
